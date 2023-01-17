@@ -1,0 +1,27 @@
+LINE 442
+            reader = None
+            writer = None
+            self._connected_state.clear()
+            # Open connection
+            if scheme in ("mqtt", "mqtts"):
+
+            *
+                if self.client_id.find("publisher"):
+                    conn_reader, conn_writer = await asyncio.open_connection(
+                                                    self.session.remote_address,
+                                                    self.session.remote_port,
+                                                    **kwargs,
+                                                    local_addr=("127.0.7.1", 1883))
+                elif self.client_id.find("subscriber"):
+                    conn_reader, conn_writer = await asyncio.open_connection(
+                                                    self.session.remote_address,
+                                                    self.session.remote_port,
+                                                    **kwargs,
+                                                    local_addr=("127.0.7.2", 1883))
+                else:
+                    conn_reader, conn_writer = await asyncio.open_connection(
+                        self.session.remote_address,
+                        self.session.remote_port,
+                        loop=self._loop,
+                        **kwargs
+            *
