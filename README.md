@@ -12,7 +12,7 @@ The below instructions assume you are using some version of Linux. The project w
 
 First you'll want to clone this repository, and install the AMQTT and Pycryptodome libraries through pip. When I created this project, I used AMQTT version 0.10.1 and Pycryptodome version 3.15.0. Please note that this was also developed with Python version 3.8.10.
 
-After installing the libraries, you'll need to modify the local install of AMQTT. You can refer to the project report to see exactly what chanegs I made to the AMQTT library and why.
+After installing the libraries, you'll need to modify the local install of AMQTT. You can refer to the project report to see exactly what changes I made to the AMQTT library and why.
 
 If you do not already have iptables installed, you'll also need to use your package manager or another method to install iptables. This will depend entirely on your version and distribution of Linux.
 
