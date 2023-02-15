@@ -1,6 +1,8 @@
 # oe-mqtt
 
-OE-MQTT (Opportunistically Encrypted MQTT) is a proof of concept that was completed for my honours project at Carleton University, under Professor David Barrera. Please note that while the code did work at the time of creation, there are several flaws in the design and implementation of this project, and I have not maintained the code base in any way. Changes to the libraries used (for example, AMQTT) may have broken some things. 
+OE-MQTT (Opportunistically Encrypted MQTT) is a proof of concept that was completed for my honours project at Carleton University, under Professor David Barrera. 
+
+> :warning: **Note**: Please note that while the code did work at the time of creation, there are several flaws in the design and implementation of this project, and I have not maintained the code base in any way. Changes to the libraries used (for example, AMQTT) may have broken some things. Use this implementation at your own risk.
 
 For an in depth discussion on the motivation for this project, implementation details, and known problems, please review my project report "Securing MQTT Communications on IoT Devices".
 
